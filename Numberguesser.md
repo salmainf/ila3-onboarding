@@ -31,10 +31,10 @@
                         Console.WriteLine("Sie haben gewonnen!");
                         Console.WriteLine("Versuche:"+Versuche);
                     }
+                    
     Console.WriteLine("Willst du nochmals spielen? [true/false]");
-
-               
-catch{ 
+    }
+          catch{ 
 
   string erneut = Console.ReadLine();
     if (erneut == "true")
@@ -47,3 +47,5 @@ catch{
     }
   }
 }
+               
+
