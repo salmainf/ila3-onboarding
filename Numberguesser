@@ -1,5 +1,5 @@
                   try{
-                    int Zahl = new Random().Next(1, 100);
+                      int Zahl = new Random().Next(1, 100);
                     Console.Write("Erraten Sie die random Zahl zwischen 1-100:");
                     double eingabe = Convert.ToDouble(Console.ReadLine());
                     
