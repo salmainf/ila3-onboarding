@@ -34,7 +34,7 @@
                     
     Console.WriteLine("Willst du nochmals spielen? [true/false]");
     }
-          catch{ 
+     }      catch{ 
 
   string erneut = Console.ReadLine();
     if (erneut == "true")
