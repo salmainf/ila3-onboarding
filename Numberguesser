@@ -4,7 +4,7 @@
                     double eingabe = Convert.ToDouble(Console.ReadLine());
                     
                     
-                    
+                    Console.BackgroundColor = blue;
 
 
                     while (eingabe != Zahl)
