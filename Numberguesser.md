@@ -34,18 +34,19 @@
                     
     Console.WriteLine("Willst du nochmals spielen? [true/false]");
     }
-     }      catch{ 
+  }  
+   catch{ 
 
-  string erneut = Console.ReadLine();
-    if (erneut == "true")
-    {
-        spielen = Convert.ToInt32(1);
-    }
-    if (erneut == "false")
-    {
-        spielen = Convert.ToInt32(0);
-    }
-  }
+      string erneut = Console.ReadLine();
+        if (erneut == "true")
+        {
+            spielen = Convert.ToInt32(1);
+        }
+        if (erneut == "false")
+        {
+            spielen = Convert.ToInt32(0);
+        }
+      }
 
                
 
