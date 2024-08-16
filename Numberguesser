@@ -1,4 +1,4 @@
-
+                  try{
                     int Zahl = new Random().Next(1, 100);
                     Console.Write("Erraten Sie die random Zahl zwischen 1-100:");
                     double eingabe = Convert.ToDouble(Console.ReadLine());
@@ -32,9 +32,11 @@
                         Console.WriteLine("Versuche:"+Versuche);
                     }
     Console.WriteLine("Willst du nochmals spielen? [true/false]");
-               
 
-string erneut = Console.ReadLine();
+               
+catch{ 
+
+  string erneut = Console.ReadLine();
     if (erneut == "true")
     {
         spielen = Convert.ToInt32(1);
@@ -43,3 +45,5 @@ string erneut = Console.ReadLine();
     {
         spielen = Convert.ToInt32(0);
     }
+  }
+}
